@@ -36,6 +36,7 @@ const LANGUAGE_TO_GRAMMAR: Record<string, string> = {
   json: "tree-sitter-json.wasm",
   html: "tree-sitter-html.wasm",
   css: "tree-sitter-css.wasm",
+  latex: "tree-sitter-latex.wasm",
 };
 
 // File extension → language ID mapping is in shared/language-map.ts

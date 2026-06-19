@@ -40,6 +40,7 @@ const DEFAULT_SERVERS: Record<string, ServerConfig> = {
   python: { command: "pyright-langserver", args: ["--stdio"] },
   go: { command: "gopls", args: ["serve"] },
   java: { command: "jdtls", args: [] },
+  latex: { command: "texlab", args: [] },
 };
 
 // File extension → language ID mapping is in shared/language-map.ts
